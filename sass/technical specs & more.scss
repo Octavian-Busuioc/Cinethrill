@@ -1,0 +1,52 @@
+// technical specs & more for each movie/series/cartoon
+
+.section-profile-pg {
+    padding-top: 11.0803324099723vh;
+    left: 8.310249307479225vh;
+    position: relative;
+    margin-right: 8.310249307479225vh;
+}
+
+
+#section-header,
+#section-header1,
+#section-header2,
+#section-header3 {
+    margin-bottom: 5.813953488372093vh;
+    padding-left: 2.770083102493075vh;
+    text-transform: uppercase;
+    font-size: 3.3240997229916895vh;
+    font-weight: 700;
+    border-left: 0.554016620498615vh solid var(--main-color);
+    display: flex;
+    align-items: center;
+    color:black; 
+}
+
+
+.crew  {
+    .other-linebar{
+        width:100%;
+    }
+}
+
+.profile-sideinfo2 {
+    width: 112.18836565096953vh;
+    background: #fff;
+    box-shadow: 0vh 0.4155124653739612vh 0.6925207756232687vh rgba(0 , 0, 0, .2);
+    padding: 12.465373961218837vh 4.1551246537396125vh 2.770083102493075vh;
+    font-family: 'Cairo', sans-serif;
+    margin-left: 0vh;
+    z-index: 99;
+}
+
+.profile-sideinfo2 p {
+    margin-bottom: 0.9695290858725761vh;
+    color: #333;
+    font-size: 1.9390581717451523vh;
+}
+
+
+
+
+// end technical specs & more for each movie/series/cartoon

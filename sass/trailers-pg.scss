@@ -1,0 +1,223 @@
+.section23 {
+    height:2080px;
+}
+
+.nav-wrapper34 {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:99;
+    background-color: #000000;
+}
+
+.background {
+    background: url(../images/Trailers/Black-Adam.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: .5s;
+    padding-right: 2.770083102493075vh;
+}
+
+.background1 {
+    background: url(../images/Trailers/Without-Remorse.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: .5s;
+    padding-right: 2.770083102493075vh;
+}
+
+.background::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    width: 100%;
+    height: 100%;
+}
+
+.background::after {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
+    width: 100%;
+    height: 100%;
+    top:0;
+}
+
+.background1::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    width: 100%;
+    height: 100%;
+}
+
+.background1::after {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
+    width: 100%;
+    height: 100%;
+    top:0;
+}
+
+
+.background-content {
+    padding-top: 27.700831024930746vh;
+    padding-left: 2.770083102493075vh;
+    position:  relative;
+    z-index: 999;
+}
+
+.text-content {
+    width: 50%;
+}
+.text-content1 {
+    width: 50%;
+}
+
+.text-content h1 {
+  color:white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.text-content1 h1 {
+    color:white;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+
+.text-content p {
+    line-height: 2;
+}
+.text-content1 p {
+    line-height: 2;
+}
+
+.text-content button:last-of-type {
+    background: #333237;
+    border-radius: 6.4935064935064934vh;
+    margin-top: 8.658008658008658vh;
+    color:white;
+    padding: 2.1645021645021645vh 4.1551246537396125vh;
+}
+.text-content1 button:last-of-type {
+    background: #333237;
+    border-radius: 30px;
+    margin-top: 40px;
+    color:white;
+    padding: 10px 30px;
+}
+
+.text-content button i {
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 100%;
+    color: white;
+}
+.text-content1 button i {
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 100%;
+    color: white;
+}
+
+.popular .row {
+    margin-top: 65px;
+}
+
+.popular .row img {
+    transition: .3s;
+    cursor: pointer;
+}
+
+.popular .row img:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 0px 15px rgb(164, 99, 188, 0.3);
+}
+
+
+//trailer-modal 1st section
+// modal (background)
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+// modal content 
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+// close Button (x) 
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+//trailer-modal 2nd section
+// modal (background) 
+.modald {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+// modal content 
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+// close Button (x)
+  .close1 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close1:hover,
+  .close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }

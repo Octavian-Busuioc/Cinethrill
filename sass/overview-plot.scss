@@ -1,0 +1,19 @@
+.overview {
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff;
+    padding: 5.54016620498615vh;
+    max-height:220%;
+    transform:translateY(220%);
+    transition: transform 0.3s ease-in;
+}
+
+.movie-item-content:hover .overview {
+    transform:translateY(0);
+}
+
+.color-title-name {
+    display: none;
+}

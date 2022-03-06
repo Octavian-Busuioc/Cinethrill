@@ -1,0 +1,188 @@
+
+// styling pg for every movie/series/cartoon
+
+.containerinfo {
+    background: #e9e9e9;
+    overflow-x: hidden;
+    padding-top: 13.296398891966758vh;
+    font-family: 'Cairo', sans-serif;
+    margin: 0 13.850415512465373vh;
+}
+.profile-headerinfo {
+    background: rgb(185, 176, 176);
+    width: 100%;
+    display: flex;
+    height: 26.31578947368421vh;
+    position: relative;
+    box-shadow: 0vh 0.4155124653739612vh 0.554016620498615vh rgba(0, 0, 0, .2);
+}
+.profile-imginfo {
+   float: left;
+   width: 47.091412742382275vh;
+   height: 27.700831024930746vh;
+}
+.profile-imginfo img {
+    border-radius: 2.0775623268698062vh;
+    height: 31.85595567867036vh;
+    width: 31.85595567867036vh;
+    border: 0.554016620498615vh solid #fff;
+    box-shadow: 0vh 0.6925207756232687vh 1.3850415512465375vh rgba(0, 0, 0, .2);
+    position: absolute;
+    left:  6.925207756232687vh;
+    top: 2.770083102493075vh;
+    z-index: 5;
+    background: #fff;
+}
+.profile-nav-info {
+    float: left;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 8.310249307479225vh;
+}
+.profile-nav-info h3 {
+    font-variant: small-caps;
+    font-size: 4.43213296398892vh;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.profile-nav-info .yearinfo {
+    display: flex;
+    font-weight: bold;
+    color: #777;
+}
+.profile-nav-info .yearinfo p {
+    margin-right: 0.6925207756232687vh;
+}
+.main-bdinfo {
+    width: 100%;
+    display: flex;
+    padding-right: 2.0775623268698062vh;
+}
+.profile-sideinfo {
+    width: 41.551246537396125vh;
+    background: #fff;
+    box-shadow: 0vh 0.4155124653739612vh 0.6925207756232687vh rgba(0 , 0, 0, .2);
+    padding: 12.465373961218837vh 4.1551246537396125vh 2.770083102493075vh;
+    font-family: 'Cairo', sans-serif;
+    margin-left: 1.3850415512465375vh;
+    z-index: 99;
+}
+.profile-sideinfo p {
+    margin-bottom: 0.9695290858725761vh;
+    color: #333;
+    font-size: 1.9390581717451523vh;
+}
+.navinfo {
+    width: 100%;
+    z-index: -1;
+}
+.navinfo ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    height: 5.54016620498615vh;
+    background: #fff;
+    box-shadow: 0vh 0.2770083102493075vh 0.6925207756232687vh rgba(0, 0, 0, .3);
+}
+.navinfo ul li {
+    padding: 1.3850415512465375vh;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    transition: all .2s ease-in-out;
+    p {
+        color:black;
+    }
+}
+.navinfo ul li.active,
+.navinfo ul li:hover {
+    box-shadow: 0vh -0.4155124653739612vh 0vh rgba(288, 0, 70, .9) inset;
+}
+.profile-body {
+    width: 100%;
+    z-index: -1;
+}
+.tab {
+   padding: 2.770083102493075vh;
+   width: 100%;
+   text-align: center;
+   display: none;
+}
+#see-more-plot,
+#see-less-plot {
+    color: blue;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+.video-left {
+width: 30%;
+float:left;
+
+}
+
+
+.video-right {
+    width: 48%;
+    float: right;
+}
+ 
+
+.crew {
+    .team {
+            display: inline-block;
+         a{
+             text-decoration: none;
+         }
+    }
+}
+
+
+.top-actors1,
+.top-actors2 {
+    img {
+        border-radius: 50%;
+        height: 13.850415512465373vh;
+        width: 13.850415512465373vh;
+        top: 1.3850415512465375vh;
+        left: 0.6925207756232687vh;
+    }
+    img:hover {
+        transform: scale(0.8);
+   }
+    display: flex;
+    p {
+        margin: 0.6925207756232687vh;
+    }
+    margin: 0.6925207756232687vh; 
+}
+
+footer.section99 {
+    margin-top: 11.0803324099723vh;
+    padding-bottom: 11.0803324099723vh;
+    position: relative;
+    background-color: #000000;
+    margin-left: -8.310249307479225vh;
+   
+ .content {
+    margin-top: 14.265927977839334vh;
+}
+}
+
+
+//quote generator
+.quote_generator {
+    padding: 2.0775623268698062vh;
+    border-top: 0.13850415512465375vh solid white;
+    height: 18.005540166204987vh;
+    background-color: var(--main-color);
+    text-align: center;
+    margin-left: -8.310249307479225vh;
+}
+//end quote generator
+
+//tv news 
+#more {display: none;}
+//end tv news
+// end styling pg for every movie/series/cartoon
+

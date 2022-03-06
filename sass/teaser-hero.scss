@@ -1,0 +1,52 @@
+.teaser {
+    width: 200px;
+    height:90px;
+    border:1px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top:50%;
+    left:0px;
+    overflow:hidden;
+}
+
+.icon-clr:hover {
+        color: #db491c;
+    }
+
+.teaser-img {
+    width:100%;
+    height:100%;
+}
+
+.bx-play-circle {
+    position: absolute;
+    top:32%;
+    bottom:0;
+    left:38%;
+    right:0;
+    margin:auto;
+}
+
+.big-teaser {
+    width:560px;
+    height:700px;
+    position: absolute;
+    top:0;
+    bottom:300%;
+    left:80%;
+    right:0;
+    margin:auto;
+    display:none;
+}
+
+.bx-window-close {
+    width:32px;
+    height:32px;
+    position: absolute;
+    top: -32px;
+    right:-32px;
+}
+
+
+
+
